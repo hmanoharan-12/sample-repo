@@ -35,12 +35,9 @@ public class UserAccount {
 //    private Set <Transaction> transactions = new HashSet<>();
 	
     
-    public UserAccount(int id) {
-		super();
-		this.id = id;
+    public UserAccount() {
 	}
-    
-    
+   
     public UserAccount(String userName, String email, Date dateCreated) {
 		super();
 		this.userName = userName;
